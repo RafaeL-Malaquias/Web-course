@@ -9,11 +9,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Playfair+Display&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
     <title>curriculo</title>
+    <!---Todos o CSS esta feito com TAMANHO 750x960 SIZE -->
     <style>
         body {
             background-color: rgb(214, 211, 211);
+        }
+        img {
+            border-radius: 50px;
+            margin: 10px 300px 0;
+            
         }
         .titulo {
             color: rgb(0, 0, 0);
@@ -33,20 +42,40 @@
             font-size: larger;
         }
         .lang{
-            ;
+
             color: red;
             font-size: 30px;
         }
         ul {
-
             font-size: 25px;
-            list-style: inside;
+            list-style-position: inside;
         }
         li:hover {
             border-radius: 10px;
             background-color: black;
             color: red;
 
+        } 
+        .htm, .js , .css {            
+            font-family: 'Playfair Display', serif;    
+        }
+        .htm:hover {
+            color: chartreuse;
+            background-color: black;
+            border-radius: 10px;
+            text-indent: 10px;
+        }
+        .js:hover {
+            color: chartreuse;
+            background-color: black;
+            border-radius: 10px;
+            text-indent: 10px;
+        }
+        .css:hover {
+            color: chartreuse;
+            background-color: black;
+            border-radius: 10px;
+            text-indent: 10px;
         }
 
 
@@ -57,7 +86,7 @@
 <body>
 
     <!---Algumas coisas aqui é inventado para complementar o excercio!!!-->
-
+    <img src="https://scontent.fdub7-1.fna.fbcdn.net/v/t39.30808-6/276144249_1717252785287759_246478324651570466_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=BtgAJtrLo-EAX-MkBBI&_nc_ht=scontent.fdub7-1.fna&oh=00_AfCc5hwtUcMXMF7D5V1QR483jyq1Ye4-OdzjLh2FPWKVoQ&oe=63FB9999" width="100px" height="100px" alt="">
     <h1 class="titulo">RAFAEL MALAQUIAS</h1>
         <p class="endereco">Brasileiro, Casado, 25 Anos</p>
         <hr>
@@ -88,23 +117,20 @@
 
     <h2>Curso / Especialização</h2>
     <ul>
-        <li><em>Participação bootcamp Front-End Fundação Bradesco S.A</li>
-        <li>Participação Bootacamp Microsoft 2019 19 Edição</em></li>
+        <li><em>Participação bootcamp Front-End Fundação Bradesco S.A.</li>
+        <li>Participação Bootacamp Microsoft 2019 19 Edição.</em></li>
     </ul>
     <hr>
 
-    <h1>HTML5</h1>
+    <h1 class="htm">HTML5</h1>
         <p>Serfrontend - 40h - 2023</p>
-
-    <h1>Javascrpit</h1>
+    <h1 class="js">Javascrpit</h1>
         <p>Serfrontend - 40h 2023</p>
-    <h1>CSS</h1>
+    <h1 class="css">CSS</h1>
         <p>Serfrontend - 40h 2023</p>
-
     <h1>Idiomas</h1>
         <p class="lang">Portugues</p>
-        <p class="lang">English</p>
-    
+        <p class="lang">English</p> 
 
 
 
