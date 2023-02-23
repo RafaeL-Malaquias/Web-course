@@ -17,21 +17,35 @@
     <!---Todos o CSS esta feito com TAMANHO de 750x960 SIZEVIEW -->
     <style>
         body {
-            background-color: rgb(214, 211, 211);
+            background-image: url(https://www.pixel4k.com/wp-content/uploads/2020/08/the-valley-minimal-4k_1596932776.jpg) ;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;        
         }
+
         img {
             border-radius: 50px;
-            margin: 35px 300px 0;
+            margin: 45px 300px 0;
             
         }
-        .titulo{
+        .titulo {
             color: rgb(0, 0, 0);
-            font-family: 'Cinzel', serif;
-            background-color: rgb(214, 211, 211);          
+            font-family: 'Cinzel', serif;        
             text-align: center;
             }
         .bio {
+            margin-top: -15px;            
             text-align: center;
+        }
+        .bio2 {
+            margin-top: -30px;
+            text-align: center;
+        }
+        .bio2:hover {
+
+            color: aliceblue;
         }
 
         .endereco {
@@ -40,7 +54,6 @@
         }
         h1 {
             font-family: 'Courier New', Courier, monospace;
-            background-color: cyan;
         }
     
         p {
@@ -61,34 +74,64 @@
             color: red;
 
         } 
-        .htm, .js , .css {            
+
+        .a01, .a03, .a05{            
             font-family: 'Playfair Display', serif;    
         }
-        .htm:hover {
+        .a01:hover {
             color: rgb(255, 136, 0);
             background-color: black;
             border-radius: 10px;
             text-indent: 10px;
         }
-        .js:hover {
+        .a02:hover {
+            color: rgb(0, 247, 255);
+            background-color: black;
+            border-radius: 10px;
+            text-indent: 10px;
+
+        }
+        .a03:hover {
             color: rgb(255, 251, 0);
             background-color: black;
             border-radius: 10px;
             text-indent: 10px;
         }
-        .css:hover {
+        .a05:hover {
             color: rgb(0, 153, 255);
             background-color: black;
             border-radius: 10px;
             text-indent: 10px;
         }
-        .idi:hover {
+        .a06:hover {
             color: chartreuse;
             background-color: black;
             border-radius: 10px;
             text-indent: 10px;
         }
+        #img1 {
+            background-image: url(https://cdn.stocksnap.io/img-thumbs/960w/top-workspace_4HXQ2QSOUQ.jpg);
+            background-position: center;
+            background-repeat: repeat repeat-;
+        }
+        #img2 {
+            background-color: darkgrey;
+            border-radius: 10px;
+            padding: 5px 5px 0;
+        }
 
+         #code {
+            background-color: darkgrey;
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+            letter-spacing: 10px;
+            font-size: 30px;
+}
+
+
+
+        
 
 </style>
 </head>
@@ -98,10 +141,15 @@
     <img src="https://scontent.fdub7-1.fna.fbcdn.net/v/t39.30808-6/276144249_1717252785287759_246478324651570466_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=BtgAJtrLo-EAX-MkBBI&_nc_ht=scontent.fdub7-1.fna&oh=00_AfCc5hwtUcMXMF7D5V1QR483jyq1Ye4-OdzjLh2FPWKVoQ&oe=63FB9999" width="100px" height="100px" alt="">
     <h1 class="titulo">RAFAEL MALAQUIAS</h1>
 
-    <p class="bio">Web Developer | HTML | JS | CSS | REACT</a> <br>📚  Student<br> 〽️ PC master <br>🎮  Gamer<br>🌎  Brazilian 🇧🇷<br>"Start where you are. Use what you have. Do what you can."<p>
-        <p class="endereco">Brasileiro, Casado, 25 Anos</p>
-    <hr>
+    <p class="bio">Web Developer | HTML | JS | CSS | REACT</a>
+        <br>Brasileiro, Casado, 25 Anos
+     <br>📚  Student
+     <br> 〽️ PC master 
+     <br>🎮  Gamer
+     <br>🌎  Brazilian 🇧🇷</p>
+     <br><p class="bio2">"Start where you are. Use what you have. Do what you can."<p>
 
+<div id="img1">
     <h1>Objetivo</h1>
         <p>Front-End Developer</p>
 
@@ -116,7 +164,8 @@
             <p>Instalção e manutenção com fibra optica e via Radio</p>
             <p></p>
     <hr>
-
+</div>
+<div id="img2">
     <h1>Formaçao</h1>
     <h2>Ensino medio completo</h2>
     <h2>Graduação em Tecnico em informação</h2>
@@ -132,17 +181,20 @@
         <li>Participação Bootacamp Microsoft 2019 19 Edição.</em></li>
     </ul>
     <hr>
+</div>
+<div id="code">
+<div class="a01">HTML5</div>
+<div class="a02">Serfrontend - 40h - 2023</div>
+<div class="a03">JavaScript</div>
+<div class="a02">Serfrontend - 40h - 2023</div>
+<div class="a05">CSS</div>
+<div class="a02">Serfrontend - 40h - 2023</div>
+<div class="a06">Idiomas</div>
+<div class="a06">Portugues - English</div>
+</div>
 
-    <h1 class="htm">HTML5</h1>
-        <p>Serfrontend - 40h - 2023</p>
-    <h1 class="js">Javascrpit</h1>
-        <p>Serfrontend - 40h 2023</p>
-    <h1 class="css">CSS</h1>
-        <p>Serfrontend - 40h 2023</p>
-    <h1 class="idi">Idiomas</h1>
-        <p class="lang">Portugues</p>
-        <p class="lang">English</p> 
 
 
+</div>
 </body>
 </html>
